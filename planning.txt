@@ -1,0 +1,18 @@
+Python will be my choosen language for this program.
+I will write a function that will read the 'data.txt' file provided by using file handling
+Since there are 3 process(lines starting form 'e' ,  'c' or 't') in the data provided,
+These lines of process will be read and sent to their respective functions for further processing.
+
+I am guessing the total lines of code required for this program will be somewhere around 100ish lines of code.
+
+Task                                                             Time
+Writing file handling function                                   15 mins
+write employee function(adds employee data to map)               15 mins
+write customer function(adds customer data to map)               15 mins
+write transaction function(adds trans data to variable)           5 mins
+write a function that prints required data after calculation     20 mins    
+
+I forgot to add a function that prints the looped number as shown below:
+    123456789012345678901234567890123456789012345678901234567890
+
+write a function that prints the above result                    10 mins

@@ -1,0 +1,22 @@
+10-09-2020 12:23 PM        
+    Dict_Customer[custID]['custName'] = custData[2] <<<<<>>>>> this line caused the following error
+        Exception has occurred: KeyError
+        '3'
+        File "E:\Python\SE Assignment 2\program.py", line 27, in customer
+            Dict_Customer[custID]['custName'] = custData[2]
+        File "E:\Python\SE Assignment 2\program.py", line 12, in readFile
+            customer(lines)
+        File "E:\Python\SE Assignment 2\program.py", line 50, in <module>
+            readFile()
+
+    
+    so i replaced the line with :
+        Dict_Customer[custID] = {'custName': custData[2], 'custAmt': float(custData[3])}
+
+
+10-09-2020 12:49 PM
+
+    the program runs alright but shows the following error in the problems message
+        "totalAmt" is possibly unbound
+    to fix the error, i had to initialize the variable as:
+        totalAmt = 0
